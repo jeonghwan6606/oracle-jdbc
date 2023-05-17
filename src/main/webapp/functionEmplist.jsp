@@ -3,8 +3,6 @@
 <%@ page import = "java.sql.*" %>
 <%@ page import = "java.util.*" %>
 <%
-
-	
 	String driver = "oracle.jdbc.driver.OracleDriver";
 	String dburl = "jdbc:oracle:thin:@localhost:1521:xe";
 	String dbuser = "hr";
@@ -154,6 +152,5 @@
 	<% 	
 		}
 	%>
-
 </body>
 </html>
