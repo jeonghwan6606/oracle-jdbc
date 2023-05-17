@@ -129,6 +129,7 @@
 		if(minPage > 1){
 
 	%>	
+	
 		<a href= "./functionEmplist.jsp?currentPage=<%=minPage-pagePerPage%>">이전</a>&nbsp;
 	<% 	
 			
