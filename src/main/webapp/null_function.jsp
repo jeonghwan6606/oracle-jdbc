@@ -135,7 +135,7 @@
 			<td>사분기</td>
 		</tr>
 		<%
-			for(HashMap<String, Object> nI : nullIfList) {
+			for(HashMap<String, Object> nI : nullIfList) {  
 		%>
 				<tr>
 					<td><%=(String)(nI.get("name"))%></td>
