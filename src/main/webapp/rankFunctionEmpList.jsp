@@ -37,7 +37,7 @@
 	}
 	
 	//페이지 네비게이션 페이징 
-	int pagePerPage = 5; //페이지마다 10쪽의 papagerPage
+	int pagePerPage = 10; //페이지마다 10쪽의 papagerPage
 	int lastPage = totalRow / rowPerPage; // 마지막페이지는 전체행 수 나누기 페이지마다 행수 , 0으로 안나누어지면 +1 추가
 	if(totalRow%rowPerPage != 0){
 			lastPage = lastPage + 1;
