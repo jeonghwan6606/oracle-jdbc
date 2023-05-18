@@ -88,7 +88,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>windows function(rank) </h3>
+	<h3>분석함수(rank) </h3>
 	<table border="1">
 		<tr>
 			<td>employeeId</td>
