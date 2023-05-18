@@ -22,7 +22,7 @@
 		totalRow = totalRowRs.getInt(1); //index 1사용
 	}
 	
-	//쿼런트 페이지 가져오기
+	//1.쿼런트 페이지 가져오기
 	int currentPage = 1;
 	if(request.getParameter("currentPage") != null){
 		currentPage = Integer.parseInt(request.getParameter("currentPage"));
