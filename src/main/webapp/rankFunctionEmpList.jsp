@@ -57,7 +57,7 @@
 		from employees;
 	*/
 	
-	String rankSql = "select 번호, employee_id, last_name, salary, 연봉순위 from (select rownum 번호, employee_id, last_name, salary, 연봉순위  from(select employee_id, last_name, salary, rank() over(order by salary desc) 연봉순위 from employees) )where 번호 between ? and ?";
+	String rankSql = "select 번호, employee_id, last_name, salary, 연봉순위 from (select rownum 번호, employee_id, last_name, salary, 연봉순위  from(select employee_id, last_name, salary, rank() over(order by salary desc) 연봉순위 from employees)) where 번호 between ? and ?";
 	PreparedStatement rankStmt = conn.prepareStatement(rankSql);
 	rankStmt.setInt(1, beginRow);
 	rankStmt.setInt(2, endRow);
